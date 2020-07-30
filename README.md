@@ -31,8 +31,8 @@ Missing space before function parentheses
 
 ✘ 10 problems (10 errors, 0 warnings)
 
- "space-before-function-paren": ["error", "ignore"],
-
+"space-before-function-paren": ["error", "ignore"],
+"space-before-function-paren": 'off',
 
 ## Linting tool
 
