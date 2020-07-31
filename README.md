@@ -34,6 +34,14 @@ Missing space before function parentheses
 "space-before-function-paren": ["error", "ignore"],
 "space-before-function-paren": 'off',
 
+  ✘  http://eslint.org/docs/rules/prefer-promise-reject-errors  
+Expected the Promise rejection reason to be an Error
+
+[要求使用 Error 对象作为 Promise 拒绝的原因 (prefer-promise-reject-errors)](https://cn.eslint.org/docs/rules/prefer-promise-reject-errors)
+
+`Promise.reject("something bad happened");` fix
+`Promise.reject(new Error("something bad happened"));`
+
 ## Linting tool
 
  .eslintignore
